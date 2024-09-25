@@ -16,8 +16,16 @@ if ($_SESSION['status'] != 'login') {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Website Galeri Foto</title>
+  <title></title>
   <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+
+  <style>
+    body {
+        background-image: url('../assets/img/background.jpg'); /* replace with your background image URL */
+        background-size: cover;
+    }
+</style>
+
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -151,7 +159,7 @@ if ($_SESSION['status'] != 'login') {
 
 
 <footer class="d-flex justify-content-center border-top mt-3 bg-light fixed-bottom">
-  <p>&copy; UKK hendra </p>
+  <p>&copy;2024 Projek ukk_hendra </p>
 </footer>
 
 
