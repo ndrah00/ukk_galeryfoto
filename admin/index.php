@@ -20,8 +20,15 @@ if ($_SESSION['status'] != 'login') {
     <link rel="shortcut icon" type="image/jpg" href="../assets/Icon.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <title>Website Galeri Foto</title>
-</head>
 
+    <style>
+    body {
+        background-image: url('../assets/img/background.jpg');
+        background-size: cover;
+    }
+</style>
+
+</head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
@@ -78,7 +85,8 @@ if ($_SESSION['status'] != 'login') {
                 <!-- Modal -->
                 <div class="modal fade" id="komentar<?php echo $data['fotoid'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
+                    <div class="modal-content
+                                        <div class="modal-content">
                         <div class="modal-body">
                             <div class="row">
                                 <div class="col-md-8">
@@ -135,10 +143,9 @@ if ($_SESSION['status'] != 'login') {
         </div>
     <?php } ?>
 </div>
-</div>
 
 <footer class="d-flex justify-content-center border-top mt-3 bg-light fixed-bottom">
-    <p>&copy;2024 Projek Galeri Foto | Zulkifli</p>
+    <p>&copy;2024 Projek ukk_hendra</p>
 </footer>
 
 <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
