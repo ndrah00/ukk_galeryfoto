@@ -23,7 +23,7 @@ if ($_SESSION['status'] != 'login') {
 
     <style>
     body {
-        background-image: url('../assets/img/background.jpg');
+        background-image: url('../assets/img/warnahitam.png');
         background-size: cover;
     }
 </style>
