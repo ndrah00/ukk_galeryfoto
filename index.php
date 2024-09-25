@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <style>
 ; {
-  background-image: url('../assets/img/background.jpg');
+  background-image: url('../assets/img/warnahitam.png');
 }
 </style> 
 </head>
