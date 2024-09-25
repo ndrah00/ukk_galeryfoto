@@ -15,10 +15,18 @@ if ($_SESSION['status'] != 'login') {
 <html>
 <head>
  <meta  charset="utf-8">
- <meta  name="viewport"  content="width=device-width, initial-scale=1">
+ <meta  name="viewport"  content="width=device-width, initial-scale=1">                   
  <title>Website Gareri Foto</title>
  <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+ <style>
+    body {
+        background-image: url('../assets/img/warnahitam.png');
+        background-size: cover;
+    }
+</style>
+
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -104,7 +112,7 @@ if ($_SESSION['status'] != 'login') {
           </div>
         </div>
         <footer class="d-flex justify-content-center border-top mt-3 bg-light fixed-bottom">
-          <p>&copy; ukk hendrahm</p>
+          <p>&copy; 2024 Projek ukk_hendra</p>
         </footer>
 
 
